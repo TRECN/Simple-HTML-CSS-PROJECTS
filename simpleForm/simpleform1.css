@@ -27,6 +27,7 @@ body{
     font-weight: bold;
     padding: 0 10px;
 }
+/*adding css to form*/
 .center .inputbox{
     position: relative;
     width: 300px;
@@ -44,3 +45,20 @@ body{
     padding: 10px;
     font-size: 1.2em;
 }
+.center .inputbox:last-child{
+    margin-bottom: 0;
+}
+
+.center .inputbox span{
+    position: absolute;
+    top:14px;
+    left: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .6s;
+}
+.center .inputbox input:focus~span, .center .inputbox:valid~span{
+    transform: translateX(-13px)
+                translateY(-35px);
+    font-size: 1em;
+}
+
