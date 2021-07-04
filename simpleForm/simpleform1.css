@@ -61,4 +61,10 @@ body{
                 translateY(-35px);
     font-size: 1em;
 }
+.inputbox input[type="button"]{
+    width: 50%;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+}
 
