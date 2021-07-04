@@ -66,5 +66,13 @@ body{
     border: none;
     background-color: dodgerblue;
     color: white;
+    transition: .6s;
+    
 }
+.center .inputbox:hover
+[type="button"]{
+    background: linear-gradient(45deg,yellow,blue);
+    transition: .6s ease;
+}
+
 
