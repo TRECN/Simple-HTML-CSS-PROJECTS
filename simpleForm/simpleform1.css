@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*adding gradiant to the body background*/
     background: linear-gradient(45deg,yellow,blue);
-
+    /*specifing that the body covers the whole height*/
+    height: 100vh;
+    
 }
