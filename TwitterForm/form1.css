@@ -57,7 +57,15 @@ label:nth-of-type(2){
 input::placeholder{
     color: gray;
 }
-
+input{
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 10px #b6b6b6 , inset -5px -5px 10px white;
+}
 
 
 
