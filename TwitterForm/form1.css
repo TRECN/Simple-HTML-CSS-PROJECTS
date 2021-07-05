@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     height: 100vh;
@@ -18,4 +21,19 @@ body{
     border-radius: 20px;
     padding: 40px;
     box-shadow: 14px 14px 20px #3761af , -14px -14px 20px hsl(209, 100%, 71%);
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+    margin: auto;
+    box-shadow: 7px 7px 10px #b6b6b6 , -7px -7px 10px white;
+}
+.title{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
 }
