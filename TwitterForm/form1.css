@@ -75,5 +75,9 @@ button{
     font-weight: 800;
     color:white;
 }
-
+button:hover{
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: .4s;
+}
 
