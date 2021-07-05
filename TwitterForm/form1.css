@@ -37,15 +37,27 @@ body{
     color: #1DA1F2;
     letter-spacing: 1px;
 }
-.input{
+.inputs{
     text-align: left;
     margin-top: 30px;
 }
-label,input{
+label,input,button{
     display: block;
     width: 100%;
     padding: 0;
     border: none;
     margin-bottom: 5px;
 }
+label{
+    margin-bottom: 5px;
+}
+label:nth-of-type(2){
+    margin-top: 20px;
+}
+input::placeholder{
+    color: gray;
+}
+
+
+
 
