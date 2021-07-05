@@ -10,3 +10,12 @@ body{
     overflow: hidden;
     font-family: poppins;
 }
+.container{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: #ecf0f3;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 14px 14px 20px #3761af , -14px -14px 20px hsl(209, 100%, 71%);
+}
