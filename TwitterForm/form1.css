@@ -66,6 +66,14 @@ input{
     border-radius: 50px;
     box-shadow: inset 5px 5px 10px #b6b6b6 , inset -5px -5px 10px white;
 }
-
+button{
+    margin-top: 20px;
+    background: #1DA1F2 ;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 10px #b6b6b6 , -7px -7px 10px white;
+    font-weight: 800;
+    color:white;
+}
 
 
